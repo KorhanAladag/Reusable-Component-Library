@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100dvh;
+}
+
+    /* Badges */
+
+.badge {
+    width: 67px;
+    height: 24px;
+    display: inline-flex;
+    padding: 2px 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    margin: 0.5rem;
+    
+}
+
+.pill {
+    border-radius: 12px;
+}
+
+.square {
+    border-radius: 4px;
+}
+
+
+
+.gray{
+    background: #F3F4F6;
+    color: #1F2937;
+}
+
+.red{
+   background: #FEE2E2;
+   color: #991B1B;   
+}
+
+.yellow{
+   background: #FEF3C7;
+   color: #92400E;       
+}
+
+.green{
+   background: #D1FAE5;
+   color: #065F46;       
+}
+
+.blue{
+   background: #DBEAFE;
+   color: #1E40AF;       
+}
+
+.indigo{
+   background: #E0E7FF;
+   color: #3730A3;       
+}
+
+.purple{
+   background: #EDE9FE;
+   color: #5B21B6;       
+}
+
+.pink{
+   background: #FCE7F3;
+   color: #9D174D;       
+}
+
+/* Banners */
+
+.banner {
+font-family: Inter, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+margin: 1rem;
+}
+
+.banner-multi {
+    
+display: flex;
+flex-direction: column; 
+width: 900px;
+padding: 10px;
+align-items: flex-start;
+border-radius: 6px;
+
+
+
+    
+}
+
+.banner-multi >h3 {
+    margin:0;
+    padding: 0;
+}
+
+
+
+.banner-multi >p {
+    margin:0;
+    padding: 0;
+}
+
+.banner-single {
+    
+display: flex;
+width: 900px;
+padding: 16px;
+align-items: flex-start;
+gap: 12px;
+    
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.img-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.banner-success {
+   color: #047857;
+   background: #ECFDF5; 
+}
+
+.banner-success .img-container {
+    
+    background-image: url("../icons/success.png")
+    
+}
+
+.banner-warning {
+   color: #92400E;
+   background: #FFFBEB; 
+}
+
+.banner-warning .img-container {
+    
+    background-image: url("../icons/attention.png")
+    
+}
+
+.banner-error {
+   color: #92400E;
+   background: #FEF2F2; 
+}
+
+.banner-error .img-container {
+    
+    background-image: url("../icons/error.png")
+    
+}
+
+.banner-neutral {
+   color: #1E40AF;
+   background: #EFF6FF; 
+}
+
+.banner-neutral .img-container {
+    background: no-repeat; 
+    background-image: url("../icons/update.png")
+    
+}
+
+   /* CARDS */
+   
+.card {
+position: relative;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+padding: 24px;
+font-family: Inter, sans-serif;
+height: auto;
+
+
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+
+
+.card-icon {
+    position: absolute;
+    top: 0;
+    height: 48px; 
+    width: 48px; 
+    background-image: url("../icons/cardicon.png");
+    background-size: 24px 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    padding: 25px 0px 25px 25px;
+    background-color: whitesmoke;
+    
+}
+
+.card-content > h3 {
+
+    color: #111827;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.card-content >p {
+    margin: 0;
+    padding: 0;
+    color: #6B7280;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+
+/* Testimonials */
+
+.testimonials-container {
+margin-top: 40px;
+position: relative;
+display: flex;
+flex-direction: raw;
+height: 400px;
+justify-content: center;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+background-color: #2545B8;
+color: #FFFFFF;
+
+}
+
+.testimonialsimg {
+    position: absolute;
+    top: -30;
+    left: 50px;
+    width: 284px;
+    height: 440px;
+    background-image: url("../icons/korhanfoto.jpeg");
+    background-color: #3F75FE;
+    background-size: cover;
+    border-radius: 12px;
+    
+}
+
+.testimonials-info { 
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
+
+.testimonials-quote {
+    width: 48px;
+    height: 48px;
+}
+
+.individual {
+    font-weight: 700;
+}
+
+
+.testimonials-info > h3 {
+    margin-bottom: 1em;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+.testimonials-info >p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.testimonials-container-noimg {
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.testimonial-logo {
+    width: 180px;
+    height: 30px;
+    background-image: url(../icons/testimonialsworkcationlogo.png);
+    background-color: whitesmoke;
+    background-size: cover;
+}
+
+.testimonials-info-noimg { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 20%;
+}
+
+
+.testimonials-info-noimg >h3 {
+    margin-bottom: 2em;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.testimonials-info-noimg >p {
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.testimonials-noimg-signature {
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-self: center;
+    align-items: center;
+}
+    
+.division {
+    width: 20px;
+    height: 20px;
+    background-image: url("../icons/divider.png");
+    background-color: whitesmoke;
+    background-size: cover;
+}
+
