@@ -1,4 +1,5 @@
 import React from "react" 
+import {testimonialIcon} from "./icons/testimonialquoteicon.png"
 
 export default function Testimonials( { text, workplace, children, image}){
     return image == true ? 
@@ -8,7 +9,7 @@ export default function Testimonials( { text, workplace, children, image}){
             <div className="testimonialsimg"></div>   
             
             <div className="testimonials-info"> 
-                <img src="../icons/testimonialquoteicon.png" className="testimonials-quote"/>
+                <img src={testimonialIcon} className="testimonials-quote"/>
                 <h3>{text}</h3>
                 <p className="individual">{children}</p>
                 <p>{workplace}</p>
