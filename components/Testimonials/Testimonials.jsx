@@ -1,5 +1,5 @@
 import React from "react" 
-import testimonialIcon from "./icons/testimonialquoteicon.png"
+import testimonialIcon from "../../icons/testimonialquoteicon.png"
 
 export default function Testimonials( { text, workplace, children, image}){
     return image == true ? 
