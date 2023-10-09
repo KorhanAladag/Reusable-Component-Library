@@ -142,7 +142,7 @@ gap: 12px;
 
 .banner-success .img-container {
     
-    background-image: url("../icons/success.png")
+    background-image: url("./icons/success.png")
     
 }
 
@@ -153,7 +153,7 @@ gap: 12px;
 
 .banner-warning .img-container {
     
-    background-image: url("../icons/attention.png")
+    background-image: url("./icons/attention.png")
     
 }
 
@@ -164,7 +164,7 @@ gap: 12px;
 
 .banner-error .img-container {
     
-    background-image: url("../icons/error.png")
+    background-image: url("./icons/error.png")
     
 }
 
@@ -175,7 +175,7 @@ gap: 12px;
 
 .banner-neutral .img-container {
     background: no-repeat; 
-    background-image: url("../icons/update.png")
+    background-image: url("./icons/update.png")
     
 }
 
@@ -205,7 +205,7 @@ height: auto;
     top: 0;
     height: 48px; 
     width: 48px; 
-    background-image: url("../icons/cardicon.png");
+    background-image: url("./icons/cardicon.png");
     background-size: 24px 24px;
     background-position: center;
     background-repeat: no-repeat;
@@ -270,7 +270,7 @@ color: #FFFFFF;
     left: 50px;
     width: 284px;
     height: 440px;
-    background-image: url("../icons/korhanfoto.jpeg");
+    background-image: url("./icons/korhanfoto.jpeg");
     background-color: #3F75FE;
     background-size: cover;
     border-radius: 12px;
@@ -325,7 +325,7 @@ color: #FFFFFF;
 .testimonial-logo {
     width: 180px;
     height: 30px;
-    background-image: url(../icons/testimonialsworkcationlogo.png);
+    background-image: url(./icons/testimonialsworkcationlogo.png);
     background-color: whitesmoke;
     background-size: cover;
 }
@@ -365,7 +365,7 @@ color: #FFFFFF;
 .division {
     width: 20px;
     height: 20px;
-    background-image: url("../icons/divider.png");
+    background-image: url("./icons/divider.png");
     background-color: whitesmoke;
     background-size: cover;
 }
